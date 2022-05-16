@@ -1,0 +1,23 @@
+{
+    "name": "kemp/fast-and-loose-money-parser",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kemp\\FastAndLooseMoneyParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Steven Kemp",
+            "email": "steven@appliedimagination.com"
+        }
+    ],
+    "require": {
+        "moneyphp/money": "^3.3",
+        "php": "^7||^8"
+    }
+}
